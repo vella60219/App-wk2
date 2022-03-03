@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
 
 const AlbumDetail = (props) => {
-  const { thumbnail_image, title, artist, image } = props.album;
+  const { title, album, image } = props.album;
   return (
     <View style={styles.cardContainerStyle}>
       <View style={[styles.cardSectionStyle, styles.cardImg]}>
@@ -16,7 +16,7 @@ const AlbumDetail = (props) => {
       <View style={[styles.thumbnailContainerStyle, styles.cardSectionStyle]}>
         <View style={styles.headerContentStyle}>
           <Text style={styles.textA}>{title}</Text>
-          <Text style={styles.textB}>{artist}</Text>
+          <Text style={styles.textB}>{album}</Text>
         </View>
       </View>
     </View>
