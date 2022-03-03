@@ -15,16 +15,16 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     height: 60,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
+    shadowColor: "#888",
+    shadowOffset: { width: 0, height: 5 },
     shadowOpacity: 0.2,
     // Android Only
     elevation: 4,
-    backgroundColor: "rgba(255,255,255,0.1)", 
+    backgroundColor: '#f1f1f1', 
   },
   textStyle: {
     fontSize: 20,
-    color: '#111',
+    color: '#121212',
   },
 });
 

@@ -12,6 +12,8 @@ const Albumlist = () => {
       <AlbumDetail album = {albumData[3]} />
       <AlbumDetail album = {albumData[4]} />
       <AlbumDetail album = {albumData[5]} />
+      <AlbumDetail album = {albumData[6]} />
+      <AlbumDetail album = {albumData[7]} />
     </ScrollView>
   );
 };
