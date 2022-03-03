@@ -1,11 +1,13 @@
 import React from "react";
 import { ScrollView } from "react-native";
 import AlbumDetail from "./AlbumDetail";
+import Artist from "./Artist";
 import albumData from "../json/albums";
 
 const Albumlist = () => {
   return (
     <ScrollView>
+      <Artist/>
       <AlbumDetail album = {albumData[0]} />
       <AlbumDetail album = {albumData[1]} />
       <AlbumDetail album = {albumData[2]} />
